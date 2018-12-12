@@ -1,0 +1,128 @@
+/* Colour Scheme Analogous: #FFCF88, #E8AE7C, #FFA57C, #E88E7C, #FF8B88 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display');
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Playfair Display', 'Times New Roman', 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color:darkcyan;
+}
+
+a {
+    color: black;
+    border: 1px solid transparent;
+}
+
+a:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+div.jumbotron {
+    background-color:floralwhite;
+    color: black;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px white;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #FFA57C;
+    text-decoration: underline;
+}
+
+h3 {
+    text-shadow: 1px 1px 1px;
+    color:black;
+}
+
+#card {
+    background-color:floralwhite;
+    text-shadow: 2px 2px 4px white;
+}
+
+#text {
+    text-shadow: 2px 2px 4px white;
+}
+
+h4 {
+    text-shadow: 2px 2px 4px #FFA57C;
+    text-decoration: underline;
+}
+
+h5 {
+    text-shadow: 1px 1px 2px #FF8B88;
+    text-decoration: underline;
+    text-decoration-color: #FF8B88;
+}
+
+hr {
+    background-color: #FF8B88;
+}
+
+footer a:hover {
+    color: #FF8B88;
+}
+.row img1{
+  
+  padding-bottom: 2rem;
+}
+.row img1{
+  
+  padding-bottom: 2rem;
+}
+.row:nth-child(odd){
+  position: relative;
+}
+.row:nth-child(odd) img1{
+  
+}
+.row:nth-child(odd)::before{
+  content: "";
+
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left: -500px;
+  right: -500px;
+}
+.row{
+  margin: 0;
+  padding: 3rem 5rem;
+}
+body{
+  overflow-x:hidden;
+  }
+img{
+    display:inline-flex;
+    width: 60%;
+    
+}
+.img2{
+    width: 100%;
+}
